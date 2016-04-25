@@ -1,0 +1,56 @@
+.background {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.main_block {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	width: 70%;
+	height: 100%;
+	left: 15%;
+	background-color: #ffffff;
+}
+
+.main_logo {
+	margin: 0 auto;
+	width: 200px;
+	padding-top: 15px;
+}
+
+.split_body_left {
+	float:left;
+	width: 50%;
+}
+
+#center {
+	position: relative;
+	top: 50%;
+	vertical-align: middle;
+}
+
+.split_body_right {
+	float:right;
+	width: 50%;
+}
+
+.map {
+	margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+}
+
+h1 {
+	color: #243F90;
+	text-align: center;
+}
+
+h2 {
+	color: #243F90;
+	text-align: center;
+}
